@@ -1,7 +1,6 @@
 import random
 import datetime
 
-# --- Response Generators ---
 def get_greeting():
     return random.choice([
         "Hello! How are you doing?",
@@ -32,7 +31,6 @@ def get_joke():
         "What do you call fake spaghetti? An impasta!"
     ])
 
-# --- Main Chatbot ---
 print("🤖 ChatBot 2.0 (type 'bye', 'quit' or 'exit' to end conversation)")
 
 while True:
@@ -85,4 +83,5 @@ while True:
         
     # Fallback
     else:
+
         print("Bot: I'm still learning. Could you rephrase or ask something else?")
